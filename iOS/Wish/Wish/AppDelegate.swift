@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.navConfig();
         
+        
         return true
     }
 

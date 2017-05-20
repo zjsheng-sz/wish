@@ -14,6 +14,21 @@ class GWHomePageController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+        let view = GWView.init(color: UIColor.white, name: "hahha")
+        print(view.name)
+        
+        
+        let myView = GWView.init()
+        
+        print(myView.name)
+        
+        
+        let validateEmail = "770649662@qq.com"
+        
+        emptyString
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,14 +38,13 @@ class GWHomePageController: UIViewController {
     
     
     
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+}
 
+
+struct GWView {
+    
+    var color: UIColor = UIColor.red
+    var name : String = "zjs"
+    
 }
