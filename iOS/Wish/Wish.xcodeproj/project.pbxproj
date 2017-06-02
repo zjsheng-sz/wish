@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C40B4F11ECECE5200DBAFCC /* GWHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40B4F01ECECE5200DBAFCC /* GWHomePageController.swift */; };
 		7C494B6A1EAAFD740040F410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C494B691EAAFD740040F410 /* AppDelegate.swift */; };
 		7C494B6C1EAAFD740040F410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C494B6B1EAAFD740040F410 /* ViewController.swift */; };
 		7C494B6F1EAAFD740040F410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C494B6D1EAAFD740040F410 /* Main.storyboard */; };
@@ -15,6 +14,11 @@
 		7C494B741EAAFD740040F410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C494B721EAAFD740040F410 /* LaunchScreen.storyboard */; };
 		7C494B7F1EAAFD740040F410 /* wishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C494B7E1EAAFD740040F410 /* wishTests.swift */; };
 		7C494B8A1EAAFD740040F410 /* wishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C494B891EAAFD740040F410 /* wishUITests.swift */; };
+		7CE81E6D1EE16AE7005327B6 /* GWLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE81E6C1EE16AE7005327B6 /* GWLoginController.swift */; };
+		7CE81E751EE16B84005327B6 /* GWUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE81E741EE16B84005327B6 /* GWUserModel.swift */; };
+		7CE81E771EE16BDB005327B6 /* GWBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE81E761EE16BDB005327B6 /* GWBaseController.swift */; };
+		7CE81E791EE16C0E005327B6 /* GWBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE81E781EE16C0E005327B6 /* GWBaseNavigationController.swift */; };
+		7CE81E7C1EE16DD0005327B6 /* PersionObeject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE81E7B1EE16DD0005327B6 /* PersionObeject.m */; };
 		7CED9CC41ED01A1100F151D0 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED9CC31ED01A1100F151D0 /* NSString+Regex.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C40B4F01ECECE5200DBAFCC /* GWHomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWHomePageController.swift; sourceTree = "<group>"; };
 		7C494B661EAAFD740040F410 /* wish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C494B691EAAFD740040F410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C494B6B1EAAFD740040F410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +53,13 @@
 		7C494B851EAAFD740040F410 /* wishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C494B891EAAFD740040F410 /* wishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishUITests.swift; sourceTree = "<group>"; };
 		7C494B8B1EAAFD740040F410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CED9CC11ED01A1000F151D0 /* wish-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wish-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CE81E6C1EE16AE7005327B6 /* GWLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWLoginController.swift; sourceTree = "<group>"; };
+		7CE81E741EE16B84005327B6 /* GWUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWUserModel.swift; sourceTree = "<group>"; };
+		7CE81E761EE16BDB005327B6 /* GWBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWBaseController.swift; sourceTree = "<group>"; };
+		7CE81E781EE16C0E005327B6 /* GWBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWBaseNavigationController.swift; sourceTree = "<group>"; };
+		7CE81E7A1EE16DD0005327B6 /* PersionObeject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersionObeject.h; sourceTree = "<group>"; };
+		7CE81E7B1EE16DD0005327B6 /* PersionObeject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersionObeject.m; sourceTree = "<group>"; };
+		7CED9CC11ED01A1000F151D0 /* wish-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "wish-Bridging-Header.h"; path = "Category/wish-Bridging-Header.h"; sourceTree = "<group>"; };
 		7CED9CC21ED01A1100F151D0 /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		7CED9CC31ED01A1100F151D0 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,16 +94,14 @@
 			children = (
 				7CED9CC21ED01A1100F151D0 /* NSString+Regex.h */,
 				7CED9CC31ED01A1100F151D0 /* NSString+Regex.m */,
-				7CED9CC11ED01A1000F151D0 /* wish-Bridging-Header.h */,
 			);
-			name = Category;
-			path = wish/Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		7C494B5D1EAAFD740040F410 = {
 			isa = PBXGroup;
 			children = (
-				7C40B4F21ECEDAA500DBAFCC /* Category */,
+				7CE81E691EE16924005327B6 /* Build */,
 				7C494B681EAAFD740040F410 /* wish */,
 				7C494B7D1EAAFD740040F410 /* wishTests */,
 				7C494B881EAAFD740040F410 /* wishUITests */,
@@ -115,9 +122,13 @@
 		7C494B681EAAFD740040F410 /* wish */ = {
 			isa = PBXGroup;
 			children = (
+				7CE81E541EE168C4005327B6 /* Network */,
+				7CE81E531EE167F8005327B6 /* Tool */,
+				7C40B4F21ECEDAA500DBAFCC /* Category */,
+				7CE81E4E1EE16767005327B6 /* UI */,
 				7C494B691EAAFD740040F410 /* AppDelegate.swift */,
 				7C494B6B1EAAFD740040F410 /* ViewController.swift */,
-				7C40B4F01ECECE5200DBAFCC /* GWHomePageController.swift */,
+				7CED9CC11ED01A1000F151D0 /* wish-Bridging-Header.h */,
 				7C494B6D1EAAFD740040F410 /* Main.storyboard */,
 				7C494B701EAAFD740040F410 /* Assets.xcassets */,
 				7C494B721EAAFD740040F410 /* LaunchScreen.storyboard */,
@@ -142,6 +153,168 @@
 				7C494B8B1EAAFD740040F410 /* Info.plist */,
 			);
 			path = wishUITests;
+			sourceTree = "<group>";
+		};
+		7CE81E4E1EE16767005327B6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E651EE168E6005327B6 /* PersonalCenter */,
+				7CE81E551EE168D1005327B6 /* Base */,
+				7CE81E591EE168D1005327B6 /* Homepage */,
+				7CE81E611EE168D1005327B6 /* Wish */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7CE81E531EE167F8005327B6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E7A1EE16DD0005327B6 /* PersionObeject.h */,
+				7CE81E7B1EE16DD0005327B6 /* PersionObeject.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7CE81E541EE168C4005327B6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7CE81E551EE168D1005327B6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E561EE168D1005327B6 /* Controller */,
+				7CE81E571EE168D1005327B6 /* Model */,
+				7CE81E581EE168D1005327B6 /* Uiew */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7CE81E561EE168D1005327B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E761EE16BDB005327B6 /* GWBaseController.swift */,
+				7CE81E781EE16C0E005327B6 /* GWBaseNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7CE81E571EE168D1005327B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CE81E581EE168D1005327B6 /* Uiew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Uiew;
+			sourceTree = "<group>";
+		};
+		7CE81E591EE168D1005327B6 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E5A1EE168D1005327B6 /* Controller */,
+				7CE81E5B1EE168D1005327B6 /* Model */,
+				7CE81E5C1EE168D1005327B6 /* Uiew */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		7CE81E5A1EE168D1005327B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7CE81E5B1EE168D1005327B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CE81E5C1EE168D1005327B6 /* Uiew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Uiew;
+			sourceTree = "<group>";
+		};
+		7CE81E611EE168D1005327B6 /* Wish */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E621EE168D1005327B6 /* Controller */,
+				7CE81E631EE168D1005327B6 /* Model */,
+				7CE81E641EE168D1005327B6 /* Uiew */,
+			);
+			path = Wish;
+			sourceTree = "<group>";
+		};
+		7CE81E621EE168D1005327B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7CE81E631EE168D1005327B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CE81E641EE168D1005327B6 /* Uiew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Uiew;
+			sourceTree = "<group>";
+		};
+		7CE81E651EE168E6005327B6 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E661EE168E6005327B6 /* Controller */,
+				7CE81E671EE168E6005327B6 /* Model */,
+				7CE81E681EE168E6005327B6 /* Uiew */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		7CE81E661EE168E6005327B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E6C1EE16AE7005327B6 /* GWLoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7CE81E671EE168E6005327B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CE81E741EE16B84005327B6 /* GWUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CE81E681EE168E6005327B6 /* Uiew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Uiew;
+			sourceTree = "<group>";
+		};
+		7CE81E691EE16924005327B6 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Build;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +452,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE81E751EE16B84005327B6 /* GWUserModel.swift in Sources */,
 				7C494B6C1EAAFD740040F410 /* ViewController.swift in Sources */,
+				7CE81E791EE16C0E005327B6 /* GWBaseNavigationController.swift in Sources */,
+				7CE81E6D1EE16AE7005327B6 /* GWLoginController.swift in Sources */,
 				7CED9CC41ED01A1100F151D0 /* NSString+Regex.m in Sources */,
+				7CE81E771EE16BDB005327B6 /* GWBaseController.swift in Sources */,
 				7C494B6A1EAAFD740040F410 /* AppDelegate.swift in Sources */,
-				7C40B4F11ECECE5200DBAFCC /* GWHomePageController.swift in Sources */,
+				7CE81E7C1EE16DD0005327B6 /* PersionObeject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
