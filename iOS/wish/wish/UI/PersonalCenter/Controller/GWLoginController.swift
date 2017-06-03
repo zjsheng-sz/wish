@@ -9,18 +9,14 @@
 import UIKit
 
 
-class GWLoginController: UIViewController {
+class GWLoginController: GWBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        let name = "zjs"
         
-        let isValidateEmail = name.isValidateEmail
-        
-        print(isValidateEmail);
         
     }
 

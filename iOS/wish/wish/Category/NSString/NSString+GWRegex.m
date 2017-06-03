@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Autel. All rights reserved.
 //
 
-#import "NSString+Regex.h"
+#import "NSString+GWRegex.h"
 
 #define REGULAR_FILE_NAME @"Regular"
 
@@ -28,7 +28,7 @@
 
 #define ZIPCODENUMBER @"^[1-9]\d{5}$"
 
-@implementation NSString (Regex)
+@implementation NSString (GWRegex)
 
 // 邮件
 - (BOOL)isValidateEmail
@@ -66,7 +66,7 @@
 }
 
 // 正则判断手机号码格式
-- (BOOL)isMobileNumber:(NSString *)mobileNum
+- (BOOL)isMobileNumber
 {
     /**
      * 手机号码
@@ -102,10 +102,10 @@
     NSPredicate *regextestcu = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", CU];
     NSPredicate *regextestct = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", CT];
     
-    if (([regextestmobile evaluateWithObject:mobileNum] == YES)
-        || ([regextestcm evaluateWithObject:mobileNum] == YES)
-        || ([regextestct evaluateWithObject:mobileNum] == YES)
-        || ([regextestcu evaluateWithObject:mobileNum] == YES))
+    if (([regextestmobile evaluateWithObject:self] == YES)
+        || ([regextestcm evaluateWithObject:self] == YES)
+        || ([regextestct evaluateWithObject:self] == YES)
+        || ([regextestcu evaluateWithObject:self] == YES))
     {
         return YES;
     }
