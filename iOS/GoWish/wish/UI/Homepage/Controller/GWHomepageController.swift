@@ -22,7 +22,5 @@ class GWHomepageController: GWBaseController {
         // Dispose of any resources that can be recreated.
     }
     
-
-
 }
     
