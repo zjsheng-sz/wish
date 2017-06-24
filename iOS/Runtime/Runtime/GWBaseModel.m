@@ -121,7 +121,7 @@
     
     objc_setAssociatedObject(array, &overviewKey, overview, OBJC_ASSOCIATION_RETAIN);
     
-    objc_setAssociatedObject(array, &overviewKey, nil, OBJC_ASSOCIATION_ASSIGN);
+//    objc_setAssociatedObject(array, &overviewKey, nil, OBJC_ASSOCIATION_ASSIGN);
     
     NSString *associateStr = objc_getAssociatedObject(array, &overviewKey);
     
