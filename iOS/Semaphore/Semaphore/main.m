@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Semophore.h"
 
 void semaphore();
 
@@ -16,12 +17,12 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"hello semaphore");
         
+        Semophore *semophoree = [[Semophore alloc] init];
         
-        
+        [semophoree semaphore];
     }
     return 0;
 }
-
 
 
 
