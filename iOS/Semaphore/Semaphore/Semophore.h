@@ -12,4 +12,6 @@
 
 - (void)semaphore;
 
+- (void)netModal;
+
 @end

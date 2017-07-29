@@ -19,7 +19,12 @@ int main(int argc, const char * argv[]) {
         
         Semophore *semophoree = [[Semophore alloc] init];
         
-        [semophoree semaphore];
+        [semophoree netModal];
+        
+
+        NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
+        
+        [runLoop run];
     }
     return 0;
 }
